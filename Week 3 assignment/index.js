@@ -122,7 +122,7 @@ for (let i = 0; i<array.length;i++)
 {
     newSum += array[i]
 }
-return newSum
+return newSum / array.length
 
 }
 console.log("sumFunction: " +sumFunction([1,2,3]))
